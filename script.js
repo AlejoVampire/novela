@@ -942,6 +942,7 @@ function finalperfecto() {
         "Hola Niurka.",
         "Felicidades por desbloquear este final.",
         "Espero que te haya gustado y lo siento si no sientes bien los otros finales.",
+        "O si no puse algunos otros momentos nuestros.",
         "Pero lo que quería transmitir con esto es que:",
         "A pesar de todo lo que hemos pasado, nuestro amor sigue vigente.",
         "Aunque tengamos discrepancias, seguimos queriendo estar con el otro.",
@@ -949,6 +950,7 @@ function finalperfecto() {
         "Pero claro, debemos ser fuertes para mantenerlo así.",
         "Te amo tanto, haremos lo mejor para que podamos llegar a estar juntos en lo que yo estoy en la universidad.",
         "Muchas gracias por todo hasta hora. Me haces muy feliz.",
+        "¡Feliz San Valentín!",
         "Con amor, Manuel, tu caramelito. ❤️"
     ];
     let index = 0;
