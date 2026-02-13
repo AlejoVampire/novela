@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>No fue fácil. Pero fue contigo.</title>
+        <link rel="stylesheet" href="estilo.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main id="game">
+            <div class="content-container">
+                <h1 id="title">No fue fácil.<br>Pero fue contigo.</h1>
+                <div class="subtitle">Esta es nuestra historia</div>
+                <div id="text">
+                    <p>Un relato sobre dos personas que, contra todo pronóstico, encontraron en el otro la fuerza para superar cada obstáculo.</p>
+                    <p>Cada decisión importó, cada momento contó, y cada desafío solo hizo más fuerte el vínculo que los une.</p>
+                </div>
+                <div id="choices">
+                    <button id="startBtn">Comenzar</button>
+                </div>
+            </div>
+            <div class="image-container" id="imageContainer">
+                <div class="illustration">
+                    <img src="nosotros.png" alt="Ilustración de la historia" class="illustration-img">
+                </div>
+            </div>
+            <div class="corner-decoration corner-1"></div>
+            <div class="corner-decoration corner-2"></div>
+        </main>
+        <div id="whiteTransition"></div>
+        <section id="vn">
+            <div class="vn-background"></div>
+            <div class="vn-textbox">
+                <p id="vnText"></p>
+                <div class="vn-actions">
+                    <span id="historyBtn">Historial</span>
+                    <span id="saveBtn">Guardar</span>
+                    <span id="loadBtn">Cargar</span>
+                </div>
+                <button id="nextBtn">Siguiente</button>
+            </div>
+            <div id="vnChoices"></div>
+        </section>
+        <div id="finalScreen" class="final-perfecto hidden">
+            <div id="finalPerfectoText"></div>
+        </div>
+        <div id="cameraFlash"></div>
+        <div id="photoReveal">
+            <img src="foto.jpeg" alt="Foto revelada">
+        </div>
+        <audio id="cameraSound" src="tomarfoto.mp3" preload="auto"></audio>
+        <div id="specialImage">
+            <img src="bodaroblox.jpeg" alt="Boda en Roblox">
+        </div>
+        <div id="historyScreen" class="hidden">
+            <div class="history-container">
+                <h2>Historial</h2>
+                <div id="historyList"></div>
+                <span class="history-close">Cerrar</span>
+            </div>
+        </div>
+        <div id="savesScreen" class="hidden">
+            <div class="saves-header">
+                <h2>Guardado</h2>
+                <span id="closeSaves">✕</span>
+            </div>
+            <div class="saves-grid">
+                <div class="save-slot" data-slot="0"></div>
+                <div class="save-slot" data-slot="1"></div>
+                <div class="save-slot" data-slot="2"></div>
+                <div class="save-slot" data-slot="3"></div>
+                <div class="save-slot" data-slot="4"></div>
+                <div class="save-slot" data-slot="5"></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
